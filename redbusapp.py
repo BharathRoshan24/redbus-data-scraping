@@ -21,7 +21,7 @@ web = option_menu(menu_title="🚌 OnlineBus",
 
 # Home page setting
 if web == "Home":
-    slt.image(image.jpeg", width=200)
+    slt.image("image.jpeg", width=200)
     slt.title("Redbus Data Scraping with Selenium & Dynamic Filtering using Streamlit")
     slt.subheader(":blue[Domain:]  Transportation")
     slt.subheader(":blue[Objective:] ")
