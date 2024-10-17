@@ -14,31 +14,31 @@ import time
 
 # kerala bus
 lists_k=[]
-df_k=pd.read_csv(r"C:\Users\ajant\OneDrive\Desktop\redbus-data-scraping\Redbus\df_k.csv")
+df_k = pd.read_csv("Redbus/df_k.csv")
 for i,r in df_k.iterrows():
     lists_k.append(r["Route_name"])
 
 #Andhra bus
 lists_A=[]
-df_A=pd.read_csv(r"C:\Users\ajant\OneDrive\Desktop\redbus-data-scraping\Redbus\df_A.csv")
+df_A=pd.read_csv("Redbus\df_A.csv")
 for i,r in df_A.iterrows():
     lists_A.append(r["Route_name"])
 
 #Telungana bus
 lists_T=[]
-df_T=pd.read_csv(r"C:\Users\ajant\OneDrive\Desktop\redbus-data-scraping\Redbus\df_T.csv")
+df_T=pd.read_csv("Redbus\df_T.csv")
 for i,r in df_T.iterrows():
     lists_T.append(r["Route_name"])
 
 #Goa bus
 lists_g=[]
-df_G=pd.read_csv(r"C:\Users\ajant\OneDrive\Desktop\redbus-data-scraping\Redbus\df_G.csv")
+df_G=pd.read_csv("Redbus\df_G.csv")
 for i,r in df_G.iterrows():
     lists_g.append(r["Route_name"])
 
 #Rajastan bus
 lists_R=[]
-df_R=pd.read_csv(r"C:\Users\ajant\OneDrive\Desktop\redbus-data-scraping\Redbus\df_R.csv")
+df_R=pd.read_csv("Redbus\df_R.csv")
 for i,r in df_R.iterrows():
     lists_R.append(r["Route_name"])
 
