@@ -11,7 +11,7 @@ import streamlit as slt
 from streamlit_option_menu import option_menu
 
 # Load the single CSV file containing all the bus details
-df = pd.read_csv("final_bus_details.csv")
+df = pd.read_csv("Final_busdetails_df.csv")
 
 # Extract unique route names for the dropdown menu
 route_names = df['Route_name'].unique()
