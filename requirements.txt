@@ -3,3 +3,6 @@ streamlit-option-menu
 mysql-connector-python
 selenium
 pymysql
+plotly
+pandas
+numpy
