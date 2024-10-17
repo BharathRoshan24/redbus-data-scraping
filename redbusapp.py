@@ -43,7 +43,7 @@ if web == "📍 States and Routes":
 
     def type_and_fare(bus_type, fare_range):
         # MySQL connection
-        conn = mysql.connector.connect(host="localhost", user="root", password="roshan21", database="RED_BUS_DETAILS")
+        conn = mysql.connector.connect(host="127.0.0.1", user="root", password="roshan21", database="RED_BUS_DETAILS")
         my_cursor = conn.cursor()
 
         # Define fare range based on selection
