@@ -84,7 +84,7 @@ if web == "📍 States and Routes":
 
 # Establish MySQL connection (optional for the app; mainly for data insertion if required)
 conn = mysql.connector.connect(
-    host="localhost",
+    host="127.0.0.1",
     user="root",
     password="roshan21",
     database="RED_BUS_DETAILS"
